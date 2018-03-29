@@ -1,3 +1,28 @@
+# Reading triage
+
+["The lambda calculus is algebraic", Peter Selinger](https://www.mscs.dal.ca/~selinger/papers/combinatory.pdf):
+"We argue that free variables should not be interpreted as elements in a model, as is usually done, but as indeterminates."
+
+["On the algebraic models of lambda calculus", Antonino Salibra](https://pdfs.semanticscholar.org/055d/69ee4dc95fbf6457419c90338493667478b1.pdf):
+"The variety (equational class) of lambda abstraction algebras was introduced
+to algebraize the untyped lambda calculus in the same way Boolean algebras algebraize the classical propositional calculus."
+Propositional logic is modeled by Boolean algebra.
+First-order logic is modeled by cylindric algebra?
+Lambda calculus is modeled by lambda abstraction algebra.
+Why algebra? Because it is equational?
+[Wikipedia "algebraic logic"](https://en.wikipedia.org/wiki/Algebraic_logic)
+
+["The algebraic lambda-calculus", Lionel Vaux](https://pdfs.semanticscholar.org/7596/19f05a42ff3045bcf87fcaa3edbff01e1130.pdf)
+
+["Lambda abstraction algebras: representation theorems", Don Pigozzi, Antonino Salibra](https://pdfs.semanticscholar.org/44c9/2ad00b8ceba78319005db048b24d61a80748.pdf):
+
+["Applying Universal Algebra to Lambda Calculus", Giulio Manzonetto, Antonino Salibra](http://www.dsi.unive.it/~salibra/mainfinale.pdf)
+
+Dana Scott's PCF; also search the Internet for "the language pcf"
+["Introduction to Real PCF (Notes)", Mart\'in H\"otzel Escard\'o](http://www.cs.bham.ac.uk/~mhe/papers/RNC3.pdf)
+
+# Need tidying-up
+
 Abdullah wants to make a monad-aware programming language and banish `fmap`.
 
 The plan is to research two related things in parallel:
