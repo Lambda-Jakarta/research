@@ -80,17 +80,20 @@ we require that the function builds up the output.
             the denotation of a program phrase should be built out of the denotations of its subphrases."
                 - This needs an example.
 
-- [Stephen Dolan's Ph.D. thesis "Algebraic subtyping"](https://www.cl.cam.ac.uk/~sd601/thesis.pdf)
-    - [Subtyping on Wikipedia](https://en.wikipedia.org/wiki/Subtyping)
-
-Scala already tries to join parametric subtyping and inheritance subtyping.
-What is the problem with Scala?
 
 The folder [abdullah-conjecture](abdullah-conjecture/)
 contains a proposed partial proof of the Abdullah conjecture for all Haskell 98 type endofunctions.
 The proof can be checked by the Lean theorem prover version 3.
 See also the [Lean prover home page](https://leanprover.github.io/).
 To edit Lean source files, use Visual Studio Code and its Lean plugin.
+
+# Research 2
+
+- [Stephen Dolan's Ph.D. thesis "Algebraic subtyping"](https://www.cl.cam.ac.uk/~sd601/thesis.pdf)
+    - [Subtyping on Wikipedia](https://en.wikipedia.org/wiki/Subtyping)
+
+Scala already tries to join parametric subtyping and inheritance subtyping.
+What is the problem with Scala?
 
 Other past researches:
 
