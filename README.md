@@ -95,7 +95,7 @@ To edit Lean source files, use Visual Studio Code and its Lean plugin.
 Scala already tries to join parametric subtyping and inheritance subtyping.
 What is the problem with Scala?
 
-Other past researches:
+# Past reading list
 
 - Brzozowski quotients.
     - [Yacc is dead](https://arxiv.org/abs/1010.5023)
