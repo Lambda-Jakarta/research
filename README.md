@@ -80,6 +80,7 @@ we require that the function builds up the output.
             the denotation of a program phrase should be built out of the denotations of its subphrases."
                 - This needs an example.
 
+# Results
 
 The folder [abdullah-conjecture](abdullah-conjecture/)
 contains a proposed partial proof of the Abdullah conjecture for all Haskell 98 type endofunctions.
@@ -103,3 +104,14 @@ What is the problem with Scala?
 
 - Laziness, complete laziness, full laziness, minimal reduction, what?
     - [Olin Shivers and Mitchell Wand: Bottom-up beta substitution: uplinks and lambda-DAGs](http://www.brics.dk/RS/04/38/BRICS-RS-04-38.pdf)
+
+# Opinions
+
+I think it is semantic incompatibility, not syntactic incompatibility, that makes programming languages hard to interoperate.
+Semantic incompatibility is why we still don't have one programming language "to rule them all".
+We don't even know the semantics of the programming language we use.
+Even formalizing the semantics of C is a very complex task.
+
+In research programming languages, we start from the semantics, and then we realize that language on a computer.
+
+In popular programming languages, we start with something already working, and then we try to formalize that language's semantics.
