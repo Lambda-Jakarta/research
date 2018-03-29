@@ -59,6 +59,20 @@ They are two strategies for beta-reduction.
 A semantic function maps a well-formed expression to a meaning (a denotation, a mathematical value).
 (Erik: Is this standard programming language theory terminology?)
 
+["Corecursion and coinduction: what they are and how they relate to recursion and induction", Mike Gordon](http://www.cl.cam.ac.uk/archive/mjcg/plans/Coinduction.html):
+"My goal here is to try to understand these things through the activity of creating a simple explanation."
+
+["Data and Codata", Dan Piponi](http://blog.sigfpe.com/2007/07/data-and-codata.html):
+"The program might not terminate, but from a mathematical perspective this is a completely well defined function."
+"Note the duality: in structural recursion we 'deconstruct' the argument and then we're allowed to recurse. In guarded recursion we recurse first, and then we're allowed to use the constructor."
+
+["Data vs Codata", Michael Maloney](https://www.tac-tics.net/blog/data-vs-codata)
+
+In structural recursion, we require that the function deconstructs the input into smaller parts;
+we require that the function breaks down (takes apart) the input.
+In structural corecursion, we require that the function constructs the output into bigger parts;
+we require that the function builds up the output.
+
 - Wikipedia
     - [Semantics](https://en.wikipedia.org/wiki/Semantics_(computer_science))
         - [Denotational semantics](https://en.wikipedia.org/wiki/Denotational_semantics)
